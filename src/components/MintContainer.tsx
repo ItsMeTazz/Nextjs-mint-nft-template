@@ -76,7 +76,7 @@ export function MintContainer() {
                     <div className='flex justify-between'>
                       <div className=''>Remaining Supply</div>
                       <div className='font-bold'>
-                        {supply} / {maxSupply}
+                        {`${supply} / ${maxSupply}`}
                       </div>
                     </div>
 
