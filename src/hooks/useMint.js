@@ -16,7 +16,8 @@ export default function useMint(count, price) {
     functionName: 'Mint',
     args: [count],
     overrides: {
-      value: BigNumber.from((price * 1e18 * count).toString()),
+      value:
+        price && count ? BigNumber.from((price * 1e18 * count).toString()) : 0,
     },
     onError(error) {
       console.log('Prep error');
