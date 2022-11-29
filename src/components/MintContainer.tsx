@@ -14,7 +14,7 @@ import AnimatedButton from '@/components/buttons/AnimatedButton';
 import ConnectButton from '@/components/buttons/ConnectButton';
 import LoadingSpinner from '@/components/LoadingSpinner';
 
-import Clone from '@/assets/img/clone.png';
+import Clone from '@/assets/img/clone.jpg';
 
 export function MintContainer() {
   const [quantity, setQuantity] = useState(1);
