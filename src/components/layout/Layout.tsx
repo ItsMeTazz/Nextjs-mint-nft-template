@@ -3,7 +3,7 @@ import * as React from 'react';
 import useRendered from '@/hooks/useRendered';
 
 import Footer from '@/components/layout/Footer';
-import Menu from '@/components/layout/Menu/Menu';
+import Menu from '@/components/layout/menu/Menu';
 import Seo from '@/components/Seo';
 
 export default function Layout({
@@ -20,7 +20,7 @@ export default function Layout({
       {rendered && (
         <>
           <Seo templateTitle={title} />
-          <div className='linear-gradient relative min-h-screen px-5 pb-32 md:px-12 lg:px-20'>
+          <div className='linear-gradient relative min-h-screen px-5 pb-20 md:px-12 lg:px-20'>
             <Menu />
             <div>{children}</div>
             <Footer />

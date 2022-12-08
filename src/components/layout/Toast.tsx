@@ -34,7 +34,7 @@ const Toast = () => {
         toastVisible
           ? 'opacity-1 translate-x-0'
           : 'translate-x-[500px] opacity-0'
-      } top-28 right-20 transition-all ease-linear`}
+      } top-28 right-20 transition ease-linear`}
     >
       <div
         className='w-96 rounded-md bg-white/10 text-sm shadow-md backdrop-blur-sm'

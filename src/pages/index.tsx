@@ -1,9 +1,8 @@
 import * as React from 'react';
 
-import Dashboard from '@/components/Dashboard';
-import { Hero } from '@/components/Hero';
 import Layout from '@/components/layout/Layout';
-import { MintContainer } from '@/components/MintContainer';
+import { Hero } from '@/components/layout/main/Hero';
+import { MintContainer } from '@/components/layout/main/MintContainer';
 
 export default function HomePage() {
   return (
@@ -14,9 +13,6 @@ export default function HomePage() {
             <Hero />
             <MintContainer />
           </div>
-        </section>
-        <section className='text-white'>
-          <Dashboard />
         </section>
       </main>
     </Layout>

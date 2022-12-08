@@ -10,7 +10,8 @@ export default function useUserNFTs() {
     abi: nftContract[chain?.id]?.abi,
     functionName: `balanceOf`,
     args: [address],
-    watch: false,
+    watch: true,
+    keepPreviousData: true,
   });
 
   return { userNFTs: Number(data), isLoading };

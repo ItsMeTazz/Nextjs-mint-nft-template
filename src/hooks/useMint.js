@@ -20,7 +20,6 @@ export default function useMint(count, price) {
         price && count ? BigNumber.from((price * 1e18 * count).toString()) : 0,
     },
     onError(error) {
-      console.log('Prep error');
       console.error(error);
     },
   });
@@ -29,7 +28,7 @@ export default function useMint(count, price) {
   const confirmation = useWaitForTransaction({
     confirmations: 1,
     hash: transaction.data?.hash,
-    onSuccess(data) {
+    onSuccess() {
       toastContext.showToast(
         TransactionStatus.Success,
         `Successfully minted ${count} NFTs`,

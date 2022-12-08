@@ -1,6 +1,6 @@
 import ConnectButton from '@/components/buttons/ConnectButton';
-import Logo from '@/components/layout/Menu/Logo';
-import MenuItems from '@/components/layout/Menu/MenuItems';
+import Logo from '@/components/layout/menu/Logo';
+import MenuItems from '@/components/layout/menu/MenuItems';
 
 export default function Menu() {
   return (

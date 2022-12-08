@@ -9,6 +9,7 @@ export default function useSupply() {
     abi: nftContract[chain?.id]?.abi,
     functionName: `totalSupply`,
     watch: true,
+    keepPreviousData: true,
     select: (data) => Number(data),
   });
 
