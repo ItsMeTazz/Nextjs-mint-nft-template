@@ -1,9 +1,9 @@
 /**
  * @type {import('next-sitemap').IConfig}
- * @see https://github.com/iamvishnusankar/next-sitemap#readme
  */
 module.exports = {
-  siteUrl: 'https://grapefinance.app',
+  // TODO: Update your app URL below
+  siteUrl: 'https://nftmint.app',
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [{ userAgent: '*', allow: '/' }],

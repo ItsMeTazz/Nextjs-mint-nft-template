@@ -15,6 +15,7 @@ export default function SwitchNetworkButton() {
         icon={<AvaxLogo />}
         onClick={() => {
           if (switchNetwork) {
+            // TODO: Update with your main chain below
             switchNetwork(43113);
           }
         }}

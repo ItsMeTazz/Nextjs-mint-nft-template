@@ -10,10 +10,6 @@ module.exports = {
         primary: ['Satoshi-Variable', ...fontFamily.sans],
       },
       colors: {
-        'lime-custom': {
-          light: '#F48530',
-          dark: '#9bef13',
-        },
         primary: {
           // Customize it on globals.css :root
           50: 'rgb(var(--tw-color-primary-50) / <alpha-value>)',
